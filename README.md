@@ -11,18 +11,18 @@ This program uses Node JS, where the user is able to create a README.md file thr
 - [License](#license)
 
 ## Installation
-The user will need to install Node.JS.
+Copy and paste content found in repo into project folder.
 
 ## Usage
-The user will have to copy the contents found here and paste them into their project folder. 
+Once the user has copy and pasted the contents from this repo into theor project folder, the user will have to go to the index.js file and open the terminal there and in the command line type "node index.js" and will be prompt with questions that will generate a README.md file. 
 
-The user must then initialize the index.js file by opening up the terminal and typing in "npm init" in the command line. This will initialize the file. Then user must then install Node JS by opening the terminal line on the index.js file and run "npm i inquirer@8.2.4" in their command line in their terminal. This will install the proper json packages. From the index.js file, the user will then type “node index.js” in the terminal command line to pull up the prompt questions that are used to create the README.md
+<a href="https://drive.google.com/file/d/1pijKK7K8pYbF5im5zkvNLU4Ymtl7LfN3/view">Video Tutorial</a>
 
 ## Credits
 N/A
 
 ## Features
-Node.Js, README-md file
+Node.Js
 
 ## Contribute
 N/A
@@ -33,9 +33,11 @@ N/A
 ## Questions
 <a href="https://github.com/tamerbekir">My GitHub</a>
 <br>
-If you have any questions or inquirers, feel free to contact me using my <a href="mailto:tamerbekir@yahoo.com">email</a>
+If you have any questions or inquries, feel free to contact me using my <a href="mailto:tamerbekir@yahoo.com">email</a>
 
 ## License
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 This project is covered under the [MIT License](https://opensource.org/licenses/MIT) License
+
+

@@ -41,21 +41,21 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
   switch (license) {
     case 'Apache License 2.0':
-      return `This project is covered under the [Apache License 2.0](https://opensource.org/licenses/Apache-2.0) License`;
+      return `This project is covered under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0) License`;
     case 'GNU General Public License v.3.0':
       return `This project is covered under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0) License`
     case 'MIT License':
-      return `This project is covered under the [MIT License](https://opensource.org/licenses/MIT) License`;
+      return `This project is covered under the [MIT License](https://opensource.org/blog/license/mit) License`;
     case 'BSD 2-Clause "Simplifed" License':
-      return `This project is covered under the [BSD 2-Clause](https://opensource.org/licenses/BSD-3-Clause) License`;
+      return `This project is covered under the [BSD 2-Clause](https://opensource.org/blog/license/bsd-2-clause) License`;
     case 'BSD 3-Clause "New" or "Revised" License':
-      return `This project is covered under the [BSD 3-Clause](https://opensource.org/licenses/BSD-3-Clause) License`;
+      return `This project is covered under the [BSD 3-Clause](https://spdx.org/licenses/BSD-3-Clause.html License`;
     case 'Boost Software License 1.0':
       return `This project is covered under the [Boost Software 1.0](https://www.boost.org/LICENSE_1_0.txt) License`;
     case 'Creative Commons Zero v1.0 Universal':
       return `This project is covered under the [Creative Commons Zero v1.0](http://creativecommons.org/publicdomain/zero/1.0/) License`;
     case 'Eclipes Public License 2.0':
-      return `This project is covered under the [Eclipes Public License 2.0](https://opensource.org/licenses/EPL-2.0) `;
+      return `This project is covered under the [Eclipes Public License 2.0](https://www.eclipse.org/legal/epl-2.0/) `;
     case 'GNU Affero General Public License v3.0':
       return `This project is covered under the [GNU Affero General Public License v3.0](https://www.gnu.org/licenses/agpl-3.0) `;
     case 'GNU General Public License v2.1':
@@ -63,7 +63,7 @@ function renderLicenseLink(license) {
     case 'GNY Lesser General Public License v2.1':
       return `This project is covered under the [GNY Lesser General Public License v2.1](https://www.gnu.org/licenses/lgpl-2.1)`;
     case 'Mozilla Public License 2.0':
-      return `This project is covered under the [Mozilla Public License 2.0](https://opensource.org/licenses/MPL-2.0)`;
+      return `This project is covered under the [Mozilla Public License 2.0](https://www.mozilla.org/en-US/MPL/2.0/)`;
     case 'Unlicensed':
       return `[Unlicensed](http://unlicense.org/)- This project is not covered by any license and is available to the public.`;
     default:
@@ -106,7 +106,7 @@ ${data.tests}
 ## Questions
 <a href="https://github.com/${data.github}">My GitHub</a>
 <br>
-If you have any questions or inquirers, feel free to contact me using my <a href="mailto:${data.email}">email</a>
+If you have any questions or inquries, feel free to contact me using my <a href="mailto:${data.email}">email</a>
 
 ## License
 ${renderLicenseBadge(data.license)}
