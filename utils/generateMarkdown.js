@@ -106,7 +106,7 @@ ${data.tests}
 ## Questions
 <a href="https://github.com/${data.github}">My GitHub</a>
 <br>
-If you have any questions or inquries, feel free to contact me using my <a href="mailto:${data.email}">email</a>
+If you have any questions or inquiries, feel free to contact me using my <a href="mailto:${data.email}">email</a>
 
 ## License
 ${renderLicenseBadge(data.license)}
