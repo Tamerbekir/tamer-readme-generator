@@ -38,4 +38,4 @@ If you have any questions or inquiries, feel free to contact me using my <a href
 ## License
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-This project is covered under the [MIT License](https://opensource.org/licenses/MIT) License
+This project is covered under the [MIT License](https://opensource.org/blog/license/mit) License
